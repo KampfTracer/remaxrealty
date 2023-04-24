@@ -1,0 +1,103 @@
+
+.logo {   /*Revisar logo tamaño*/
+    width: 50%;
+}
+.hero {
+    background-image: url("../img/globos.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    display: flex;
+    margin-bottom: 15rem;
+    font-weight: 700;
+}
+.footer-logo {
+    width: 130%;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons-containers, .footer-menu.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+}
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-image: url(../img/facebook-login-icon-download-14.jpg);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url(../img/instagram-small-icon-12.jpg);
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(../img/linkedin-icon-download-18.jpg);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(../img/twitter-icon-flat-9.jpg);
+}
+/*Propiedades*/
+.py-5 {
+    background-color:rgba(206, 206, 207, 0.932) ;
+}
+.card-body {
+background-color: rgb(101, 96, 124);
+border-radius: 10px;
+}
+/*Contacto*/
+
+.fondo {
+    background-color: rgba(206, 206, 207, 0.932);
+}
+/*Agentes*/
+
+.titulo-agentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrucel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.agent {
+    gap: 6rem;
+    margin: 2rem;
+    
+}
+.nombres {
+    background-color: black;
+}
+
+/*nosotros*/
+.col-md-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tituloo {
+    display: flex;
+    align-items: center;
+}
