@@ -81,6 +81,19 @@
 background-color: rgb(101, 96, 124);
 border-radius: 10px;
 }
+
+.tituloPropiedad {
+    margin-top: 2rem;
+}
+.card-body {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 480px)  {
+    .py-5 {
+        background-color: rgb(74, 139, 139);
+    }
+}
 /*Contacto*/
 
 .fondo {
@@ -89,6 +102,12 @@ border-radius: 10px;
 .card-staff {
     border-radius: 100%;
 }
+@media screen and (max-width: 480px){
+    .fondo {
+        background-color: rgb(74, 139, 139);
+}
+} 
+
 /*Agentes*/
 
 .titulo-agentes {
