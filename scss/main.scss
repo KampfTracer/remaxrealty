@@ -1,0 +1,14 @@
+@import "./partials/variables"; //siempre arriba del todo 
+
+@import "./partials/reset"; //siempre abajo de las variables y arriba del resto
+
+@import "./partials/header";
+@import "./partials/imagenPrincipalIndex";
+@import "./partials/footer";
+@import "./partials/propiedades";
+@import "./partials/contacto";
+@import "./partials/agentes";
+@import "./partials/nosotros";
+
+
+// Media Queries irian abajo del todo 

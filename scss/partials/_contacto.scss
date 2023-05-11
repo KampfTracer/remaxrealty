@@ -1,0 +1,23 @@
+.fondo {
+    background-color: rgba(206, 206, 207, 0.932);
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.card-staff {
+    border-radius: 100%;
+    
+}
+@media screen and (max-width: 480px){
+    .fondo,.py-5 {
+        background-color: rgb(74, 139, 139);
+        /*revisar media y los colores porque esta contacto y propiedades incluidos, dejarlo como import variable*/
+    
+}
+} 
+
+/*Grid contacto*/
+.mapa{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}

@@ -1,0 +1,33 @@
+.hero {
+    background-image: url("../img/globos.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TituloPrincipal {
+    display: flex;
+    margin-bottom: 15rem;
+    font-weight: 700;
+    
+    color: white;
+}
+
+.tituloBroker{
+    display: flex;
+    justify-content: center;
+}
+.BotonTarjetas{
+    display: flex;
+    justify-content: center;
+    
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

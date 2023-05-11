@@ -1,0 +1,40 @@
+
+.footer-logo {
+    width: 130%;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons-containers, .footer-menu.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+}
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-image: url(../img/facebook-login-icon-download-14.jpg);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url(../img/instagram-small-icon-12.jpg);
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(../img/linkedin-icon-download-18.jpg);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(../img/twitter-icon-flat-9.jpg);
+}

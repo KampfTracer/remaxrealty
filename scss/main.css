@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+}
+
+.logoNavbar {
+  width: 50%;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item :hover {
+  background-color: rgb(122, 17, 17);
+  color: whitesmoke;
+}
+
+.hero {
+  background-image: url("../img/globos.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TituloPrincipal {
+  display: flex;
+  margin-bottom: 15rem;
+  font-weight: 700;
+  color: white;
+}
+
+.tituloBroker {
+  display: flex;
+  justify-content: center;
+}
+
+.BotonTarjetas {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 130%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons-containers, .footer-menu.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-image: url(../img/facebook-login-icon-download-14.jpg);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.social-icon:hover {
+  background-color: black;
+  filter: invert(1);
+}
+
+.social-icon:nth-of-type(2) {
+  background-image: url(../img/instagram-small-icon-12.jpg);
+}
+
+.social-icon:nth-of-type(3) {
+  background-image: url(../img/linkedin-icon-download-18.jpg);
+}
+
+.social-icon:nth-of-type(4) {
+  background-image: url(../img/twitter-icon-flat-9.jpg);
+}
+
+.py-5 {
+  background-color: rgba(206, 206, 207, 0.932);
+}
+
+.card-body {
+  background-color: rgb(101, 96, 124);
+  border-radius: 10px;
+}
+
+.tituloPropiedad {
+  margin-top: 2rem;
+}
+
+.card-body {
+  background-color: aqua;
+}
+
+.fondo {
+  background-color: rgba(206, 206, 207, 0.932);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.card-staff {
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .fondo, .py-5 {
+    background-color: rgb(74, 139, 139);
+    /*revisar media y los colores porque esta contacto y propiedades incluidos, dejarlo como import variable*/
+  }
+}
+/*Grid contacto*/
+.mapa {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+}
+
+.titulo-agentes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrucel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.agent {
+  gap: 6rem;
+  margin: 2rem;
+}
+
+.nombres {
+  background-color: black;
+}
+
+.col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tituloEquipo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titulosEquipo {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
