@@ -1,17 +1,21 @@
-.logoNavbar {   
-    width: 50%;
-}
-.nav-item  {
+header {
+
+    .logoNavbar{ 
+        width: 50%;
+    } 
+
+    .nav-item {
     display: flex;
     justify-content: center;
     
-    
-    
-    
-}
-.nav-item :hover {
-    background-color: rgb(122, 17, 17)   ;
+
+    }
+    .nav-item :hover {
+        background-color: rgb(122, 17, 17)   ;
     color: whitesmoke
-    
-    
-}
+
+    }
+    .form-control {
+        width: 60%;
+    }
+} 

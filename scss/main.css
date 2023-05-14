@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +7,22 @@
   overflow: auto;
 }
 
-.logoNavbar {
+header .logoNavbar {
   width: 50%;
 }
-
-.nav-item {
+header .nav-item {
   display: flex;
   justify-content: center;
 }
-
-.nav-item :hover {
+header .nav-item :hover {
   background-color: rgb(122, 17, 17);
   color: whitesmoke;
 }
+header .form-control {
+  width: 60%;
+}
 
-.hero {
+main .hero {
   background-image: url("../img/globos.jpg");
   height: 90vh;
   background-size: cover;
@@ -29,25 +31,30 @@
   justify-content: center;
   align-items: center;
 }
-
-.TituloPrincipal {
+main .TituloPrincipal {
   display: flex;
   margin-bottom: 15rem;
   font-weight: 700;
   color: white;
 }
-
-.tituloBroker {
+main .cartitaIndex {
+  transition: 0.1s;
+}
+main .cartitaIndex:hover {
+  transform: scale(105%);
+}
+main .tituloBroker {
   display: flex;
   justify-content: center;
+  font-weight: 600;
+  color: rgb(29, 28, 28);
 }
-
-.BotonTarjetas {
+main .BotonTarjetas {
   display: flex;
   justify-content: center;
+  font-weight: 600;
 }
-
-.parrafo {
+main .parrafo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,52 +103,55 @@
   background-image: url(../img/twitter-icon-flat-9.jpg);
 }
 
-.py-5 {
-  background-color: rgba(206, 206, 207, 0.932);
+.seccionpropiedades {
+  background-color: whitesmoke;
 }
-
-.card-body {
+.seccionpropiedades .tituloPropiedad {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.seccionpropiedades .todaLaCarta {
+  transition: 0.1s;
+}
+.seccionpropiedades .todaLaCarta:hover {
+  transform: scale(105%);
+}
+.seccionpropiedades .todaLaCarta:hover .card-body {
   background-color: rgb(101, 96, 124);
   border-radius: 10px;
-}
-
-.tituloPropiedad {
-  margin-top: 2rem;
-}
-
-.card-body {
-  background-color: aqua;
 }
 
 .fondo {
   background-color: rgba(206, 206, 207, 0.932);
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  background-image: url(/img/cieloazul.png);
+  background-size: cover;
+  background-position: center;
 }
-
-.card-staff {
-  border-radius: 100%;
-}
-
-@media screen and (max-width: 480px) {
-  .fondo, .py-5 {
-    background-color: rgb(74, 139, 139);
-    /*revisar media y los colores porque esta contacto y propiedades incluidos, dejarlo como import variable*/
-  }
-}
-/*Grid contacto*/
-.mapa {
+.fondo .mapa {
   display: grid;
   grid-template-columns: repeat(1fr);
+}
+.fondo .form-label, .fondo .textoContacto {
+  font-weight: 1000;
+}
+.fondo .textoContacto {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .titulo-agentes {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  padding-top: 1rem;
 }
-
-.carrucel {
+.titulo-agentes .carrucel {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -156,24 +166,46 @@
   background-color: black;
 }
 
-.col-md-3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.cartaAgente {
+  animation: scale-up-bl 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
-
-.tituloEquipo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@keyframes scale-up-bl {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 0% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 0% 100%;
+  }
 }
-
 .row {
   display: flex;
   justify-content: space-evenly;
 }
-
-.titulosEquipo {
+.row .cartasEquipo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.row .tituloEquipo, .row .titulosEquipo {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.row .TituloInstalaciones {
+  font-weight: 600;
+}
+.row .card-staff {
+  transition: 0.1s;
+  border-radius: 40%;
+}
+.row .card-staff:hover {
+  transform: scale(105%);
+}
+
+@media screen and (max-width: 480px) {
+  .fondo, .seccionpropiedades, .fondo-agentes {
+    background-color: white;
+  }
 }/*# sourceMappingURL=main.css.map */

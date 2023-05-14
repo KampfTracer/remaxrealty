@@ -1,33 +1,49 @@
-.hero {
-    background-image: url("../img/globos.jpg");
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
+main {
+    .hero {
+        background-image: url("../img/globos.jpg");
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+    
+        @include flex(center, center)
+        
+    }
+    .TituloPrincipal{
+        display: flex;
+        margin-bottom: 15rem;
+        font-weight: 700;
+        
+        color: white;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.TituloPrincipal {
-    display: flex;
-    margin-bottom: 15rem;
-    font-weight: 700;
-    
-    color: white;
+    }
+
+    .cartitaIndex {
+        transition: 0.1s;
+    }
+
+    .cartitaIndex:hover {
+        transform: scale(105%);
+
+    }
+    .tituloBroker {
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        color: rgb(29, 28, 28);
+    }
+    .BotonTarjetas{
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+    }
+    .parrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
 }
 
-.tituloBroker{
-    display: flex;
-    justify-content: center;
-}
-.BotonTarjetas{
-    display: flex;
-    justify-content: center;
-    
-}
-.parrafo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
