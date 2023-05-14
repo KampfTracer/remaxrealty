@@ -9,10 +9,12 @@
 
     }
 .tituloEquipo, .titulosEquipo{
-    @include flex(center, center)
+    @include flex(center, center);
+    overflow: hidden
 }
 .TituloInstalaciones {
     font-weight: 600;
+    overflow: hidden
 }
 .card-staff {
     transition: 0.1s;

@@ -12,6 +12,7 @@ main {
         display: flex;
         margin-bottom: 15rem;
         font-weight: 700;
+        overflow: hidden;
         
         color: white;
 
@@ -30,6 +31,11 @@ main {
         justify-content: center;
         font-weight: 600;
         color: rgb(29, 28, 28);
+        overflow: hidden;
+        
+    }
+    .card-img-top {
+        width: 100%;
     }
     .BotonTarjetas{
         display: flex;

@@ -19,7 +19,8 @@
     @extend .form-label;
     font-size: 2.5rem;
     @include flex(center, center);
-    color: white
+    color: white;
+    overflow: hidden
     
 }
 }

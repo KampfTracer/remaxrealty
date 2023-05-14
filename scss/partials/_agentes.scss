@@ -4,6 +4,7 @@
     @include flex(center, center);
     font-weight: 600;
     padding-top: 1rem;
+    overflow: hidden;
     
     .carrucel {
     display: flex;
@@ -20,6 +21,7 @@
 }
 .nombres {
     background-color: black;
+    overflow: hidden
 }
 
 .cartaAgente  {

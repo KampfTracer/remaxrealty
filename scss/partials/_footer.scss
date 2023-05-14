@@ -1,8 +1,8 @@
 
 .footer-logo {
-    width: 130%;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    @include flex(center, center);
+    overflow: hidden
 }
 .social-icons-containers, .footer-menu.container {
     display: flex;

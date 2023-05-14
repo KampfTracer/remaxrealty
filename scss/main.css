@@ -35,6 +35,7 @@ main .TituloPrincipal {
   display: flex;
   margin-bottom: 15rem;
   font-weight: 700;
+  overflow: hidden;
   color: white;
 }
 main .cartitaIndex {
@@ -48,6 +49,10 @@ main .tituloBroker {
   justify-content: center;
   font-weight: 600;
   color: rgb(29, 28, 28);
+  overflow: hidden;
+}
+main .card-img-top {
+  width: 100%;
 }
 main .BotonTarjetas {
   display: flex;
@@ -61,9 +66,11 @@ main .parrafo {
 }
 
 .footer-logo {
-  width: 130%;
-  align-items: center;
+  width: 100%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .social-icons-containers, .footer-menu.container {
@@ -109,16 +116,20 @@ main .parrafo {
 .seccionpropiedades .tituloPropiedad {
   margin-top: 2rem;
   font-weight: 600;
+  overflow: hidden;
 }
 .seccionpropiedades .todaLaCarta {
   transition: 0.1s;
 }
 .seccionpropiedades .todaLaCarta:hover {
-  transform: scale(105%);
+  transform: scale(101%);
 }
 .seccionpropiedades .todaLaCarta:hover .card-body {
   background-color: rgb(101, 96, 124);
   border-radius: 10px;
+}
+.seccionpropiedades .card-title {
+  overflow: hidden;
 }
 
 .fondo {
@@ -142,6 +153,7 @@ main .parrafo {
   justify-content: center;
   align-items: center;
   color: white;
+  overflow: hidden;
 }
 
 .titulo-agentes {
@@ -150,6 +162,7 @@ main .parrafo {
   align-items: center;
   font-weight: 600;
   padding-top: 1rem;
+  overflow: hidden;
 }
 .titulo-agentes .carrucel {
   display: flex;
@@ -164,6 +177,7 @@ main .parrafo {
 
 .nombres {
   background-color: black;
+  overflow: hidden;
 }
 
 .cartaAgente {
@@ -192,9 +206,11 @@ main .parrafo {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .row .TituloInstalaciones {
   font-weight: 600;
+  overflow: hidden;
 }
 .row .card-staff {
   transition: 0.1s;
