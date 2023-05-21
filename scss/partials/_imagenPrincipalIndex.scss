@@ -20,10 +20,11 @@ main {
 
     .cartitaIndex {
         transition: 0.1s;
+        
     }
 
     .cartitaIndex:hover {
-        transform: scale(105%);
+        transform: scale(101%);
 
     }
     .tituloBroker {
@@ -34,9 +35,7 @@ main {
         overflow: hidden;
         
     }
-    .card-img-top {
-        width: 100%;
-    }
+
     .BotonTarjetas{
         display: flex;
         justify-content: center;
@@ -49,7 +48,15 @@ main {
         
     }
 
+    .card-img-top{
+        width: 100%;
+        overflow: hidden;
 
+    }
+    .cajacartas {
+        overflow: hidden;
+
+    }
 }
 
 

@@ -42,7 +42,7 @@ main .cartitaIndex {
   transition: 0.1s;
 }
 main .cartitaIndex:hover {
-  transform: scale(105%);
+  transform: scale(101%);
 }
 main .tituloBroker {
   display: flex;
@@ -50,9 +50,6 @@ main .tituloBroker {
   font-weight: 600;
   color: rgb(29, 28, 28);
   overflow: hidden;
-}
-main .card-img-top {
-  width: 100%;
 }
 main .BotonTarjetas {
   display: flex;
@@ -63,6 +60,13 @@ main .parrafo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+main .card-img-top {
+  width: 100%;
+  overflow: hidden;
+}
+main .cajacartas {
+  overflow: hidden;
 }
 
 .footer-logo {
@@ -119,7 +123,8 @@ main .parrafo {
   overflow: hidden;
 }
 .seccionpropiedades .todaLaCarta {
-  transition: 0.1s;
+  transition: 0.5s;
+  width: 100%;
 }
 .seccionpropiedades .todaLaCarta:hover {
   transform: scale(101%);
@@ -128,7 +133,7 @@ main .parrafo {
   background-color: rgb(101, 96, 124);
   border-radius: 10px;
 }
-.seccionpropiedades .card-title {
+.seccionpropiedades .card-title, .seccionpropiedades .col {
   overflow: hidden;
 }
 
@@ -136,7 +141,7 @@ main .parrafo {
   background-color: rgba(206, 206, 207, 0.932);
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  background-image: url(/img/cieloazul.png);
+  background-image: url("../img/cieloazul.png");
   background-size: cover;
   background-position: center;
 }
@@ -161,7 +166,7 @@ main .parrafo {
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  padding-top: 1rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 .titulo-agentes .carrucel {
@@ -218,6 +223,10 @@ main .parrafo {
 }
 .row .card-staff:hover {
   transform: scale(105%);
+}
+
+.accordion {
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 480px) {
